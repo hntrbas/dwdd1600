@@ -3,17 +3,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -21,6 +10,7 @@ body {
     font-size: 16px;
 }
 /* header stuff here */
+
 header {
     padding: 1rem 2vw;
     display: flex;
@@ -43,11 +33,6 @@ header p {
 }
 
 /* navigation stuff here */
-
-
-
-
-
 
 /* small screens */
 @media only screen and (max-width: 800px) {
@@ -72,12 +57,7 @@ header p {
         color: white;
     }
 
-
-
-
 } /*end of the media query*/
-
-
 
 /* BIG screens*/
 @media only screen and (min-width: 801px) {
@@ -161,12 +141,9 @@ main a {
     margin: 0;
 }
 .angelohero img {
-    width: 100;
+    width: 100%;
     height: auto;
 }
-
-
-
 
 
 
