@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Electric Car Central: Home</title>
+            <link rel="stylesheet" href="electric.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about Electric Vehicles, the Complete Guide.">
+        <meta name="author" content="Hunter Bastian">
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+            <h1>Electric Car Central</h1>
+            <p>The Complete Guide on EV's</p>
+        </header>
+        <!-- Start of the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Current State</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="electriccars.html">Electric Cars</a></li>
+                <li class="active"><a href="evquestions.html">EV Questionnaire</a></li>
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+        <h1>EV Questionnaire</h1>
+
+
+
+
+
+
+
+
+
+            <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="761-235-3456"></label>
+            </fieldset>
+    
+    
+            <fieldset>
+            <legend>Electric Car Company</legend>
+                <label><input type="radio" name="method" value="tesla">Tesla</label>
+                <label><input type="radio" name="method" value="Rivian">Rivian</label>
+                <label><input type="radio" name="method" value="Lucid">Lucid</label>
+                <label><input type="radio" name="method" value="Fisker">Fisker</label>
+            </fieldset>
+    
+            <fieldset>
+            <legend>Car Options</legend>
+                <label><input type="checkbox" name="sedan" value="chosen">Sedan</label>
+                <label><input type="checkbox" name="SUV" value="chosen">SUV</label>
+                <label><input type="checkbox" name="Truck" value="chosen">Truck</label>
+                <label><input type="checkbox" name="Coupe/Sports Car" value="chosen">Coupe/Sports Car</label>
+    
+                <label>Preferred Color
+                <select name="color">
+                <option value="none">Please Select</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="grey">Grey</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                </select>
+                </label>
+            </fieldset>
+    
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+    
+            <input type="submit" value="Send Delivery Request">
+            </form>
+           
+
+        
+
+
+
+
+
+        </main>
+        <!-- Start of the page header -->
+
+
+        <footer>
+        <p>&copy; 2023 &bull; Hunter Bastian &bull; <a href="mailto:bastianthunter@gmail.com">Email Us</a> </p>
+        </footer>
+
+
+    </body>
+</html>
